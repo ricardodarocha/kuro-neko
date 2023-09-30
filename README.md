@@ -8,17 +8,24 @@
 
 ## Description
 
-![git text](https://github.com/ghashy/Space-Kitty/assets/128966780/c86e455c-4a38-4f62-a34f-aa79f3f8c766)
+O gato preto, conhecido como "kuro neko" em japonês, é um símbolo com uma rica história cultural e superstições associadas a ele. O kuro neko é frequentemente retratado como um gato de pelo preto profundo, com olhos brilhantes e penetrantes.
 
-![Space Kitty - Trailer](https://github.com/ghashy/Space-Kitty/assets/109857267/17c39889-de77-4e68-aac7-ec74ba57f382)
+Em muitas culturas, o gato preto é associado à má sorte e superstições negativas. Algumas pessoas acreditam que cruzar o caminho de um gato preto trará azar ou má sorte. Essas crenças supersticiosas são tão fortes que, em algumas culturas, as pessoas evitam gatos pretos ou até mesmo os maltratam.
+
+No entanto, nem todas as culturas veem o gato preto como um símbolo de má sorte. No Japão, por exemplo, o kuro neko é considerado um símbolo de boa sorte e prosperidade. Ele é frequentemente retratado em gravuras japonesas, chamadas de "ukiyo-e", como um símbolo de fortuna e proteção contra o mal. Também é comum ver gatos pretos em templos e santuários no Japão, onde são reverenciados e considerados guardiões espirituais.
+
+Além disso, em algumas culturas pagãs e wiccanas, o gato preto é considerado um símbolo de sabedoria, intuição e conexão com o mundo espiritual. Eles são vistos como companheiros mágicos e protetores de seus donos.
+
+Em resumo, o gato preto, ou kuro neko, é um símbolo que desperta diferentes sentimentos e crenças em diferentes culturas. Enquanto algumas pessoas o veem como um sinal de má sorte, outras o consideram um símbolo de boa sorte e proteção espiritual.
 
 ### Play online
 
 [![itch.io](https://img.shields.io/badge/itch.io-green)](https://ghashy.itch.io/space-kitty)
+This is the original version 
 
 ### Specifications
 
-Made with [Bevy game engine](https://github.com/bevyengine/bevy). Enspired by [Learn Bevy Engine 0.10 series](https://www.youtube.com/playlist?list=PLVnntJRoP85JHGX7rGDu6LaF3fmDDbqyd).
+Made with [Bevy game engine](https://github.com/bevyengine/bevy). Inspired by [Learn Bevy Engine 0.10 series](https://www.youtube.com/playlist?list=PLVnntJRoP85JHGX7rGDu6LaF3fmDDbqyd).
 
 ### Used crates:
 
@@ -32,65 +39,18 @@ Made with [Bevy game engine](https://github.com/bevyengine/bevy). Enspired by [L
 
 #### Design:
 
-- [x] Fish-boss
 - [x] Audio design
-- [x] Design border, 12 dog’s skins, new cat’s skin
-- [x] Add fish score icon
-- [x] Design new game icon
-- [x] Design health of the ship
-- [x] Design Game Over screen
+- [x] Game Over screen
 - [x] Design game presentation image
 - [x] Design animation for Big Buddy
-- [x] Design Message box
 - [x] Add last collision sound for Kitty
 
 #### Coding:
 
 - [x] Implement audio
-- [x] Implement highscore system
-- [x] Dog’s message when rotating wildly
-- [x] Status bar
-- [x] Dog’s spawn outside the screen
-- [x] Entity’s message when collecting every first and 10th cracker
-- [x] Dog’s message when picking cracker randomly
-- [x] Message when new dog arriving
-- [x] Crackers particles when kitty colliding with dog
-- [x] Drop 25% of Kitty's crackers on colliding with dog.
-- [x] Implement gameover screen
-- [ ] Document code
-- [x] Decrease Magic Wand's scale
-- [x] Rework collision system
+- [x] Collision system
 - [x] Resizing screen fix
 - [x] Doggy theme particles
-- [x] Dogs loots more fish
-- [x] Restrict max amount of spawned crackers at the same time
-- [x] Update avatar images
-- [x] Add Big dog animation
-- [x] Fix aduio clipping on Master
-- [x] Add health regerenation (a glass of milk)
-- [x] Add controls sheet at the start of the game
-- [x] Despawn notes on exit game state
-- [x] Sort high scores
-- [x] Despawn milk when exit from game state
-- [x] Add sounds: picking milk, gameover screen music, pressing buttons
-- [x] Improve sprites loading in the entire project
-- [x] Fix alignement on the gamover screen
-- [x] Big Dog doesn't show up on the high scores
-- [x] Reset high scores after each game
-- [x] Add spacesuits for the dogs on the game over screen
-- [x] Add phrases "The milk'd been drinked!" when collecting the milk and "The milk escaped!" when not collecting the milk
-- [x] Add splash screen
-- [x] Try add cpu-based particles
+- [x] cpu-based particles
+- [ ] wasm
 
-##### Future features:
-
-- [ ] Update bevy to 0.11.0
-- [ ] Speed
-- [ ] Health
-- [ ] Shield
-- [ ] Water gun
-- [ ] Dog locator
-- [ ] Implement logic "Smart dog"
-- [ ] Rotating antenna
-- [ ] Add antenna, emitting particles on milk detection
-- [ ] Fish boss
