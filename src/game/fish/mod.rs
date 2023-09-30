@@ -19,7 +19,7 @@ pub mod systems;
 // ───── Constants ────────────────────────────────────────────────────────── //
 
 const NUMBER_OF_FISH: usize = 10;
-pub const FISH_SIZE: Vec2 = Vec2::new(168. / 5.9, 130. / 5.9);
+pub const FISH_SIZE: Vec2 = Vec2::new(168. / 5.9, 168. / 5.9);
 
 // ───── Body ─────────────────────────────────────────────────────────────── //
 

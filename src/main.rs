@@ -68,7 +68,7 @@ mod debug;
 // ───── Constants ────────────────────────────────────────────────────────── //
 
 const RAND_STAR_ANIMATION_TIME_RANGE: std::ops::Range<f32> = 5_f32..100_f32;
-const COMET_SPEED: f32 = 500.;
+const COMET_SPEED: f32 = 10.;
 
 // ───── Body ─────────────────────────────────────────────────────────────── //
 
@@ -91,8 +91,8 @@ fn main() {
                 primary_window: Some(Window {
                     resolution: WindowResolution::new(1280. / 1.1, 720. / 1.1)
                         .with_scale_factor_override(1.),
-                    // mode: WindowMode::BorderlessFullscreen,
-                    title: String::from("Space Kitty"),
+                     mode: WindowMode::BorderlessFullscreen,
+                    title: String::from("Eclipse Phenomena"),
                     ..default()
                 }),
                 ..default()
@@ -109,7 +109,7 @@ fn main() {
     } else {
         app.add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
-                title: String::from("Space Kitty"),
+                title: String::from("Eclipse Phenomena"),
                 resolution: (1280., 768.).into(),
                 canvas: Some("#bevy".to_string()),
                 fit_canvas_to_parent: true,

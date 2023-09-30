@@ -40,14 +40,14 @@ pub fn spawn_fish(
                             custom_size: Some(FISH_SIZE),
                             ..default()
                         },
-                        transform: Transform::from_xyz(rand_x, rand_y, 1.)
+                        transform: Transform::from_xyz(rand_x, rand_y, 2.)
                             .with_rotation(Quat::from_rotation_z(
                                 rand.gen_range(0.0..std::f32::consts::PI * 2.),
                             )),
                         texture: asset_server.load("sprites/Fish.png"),
                         ..default()
                     },
-                    Collider::ball(FISH_SIZE.x / 2.),
+                    Collider::ball(FISH_SIZE.x ),
                     Sensor::default(),
                     Fish {},
                     Animator::new(get_fish_tween(Vec3::new(
@@ -185,14 +185,14 @@ pub fn spawn_fish_over_time(
                             custom_size: Some(FISH_SIZE),
                             ..default()
                         },
-                        transform: Transform::from_xyz(rand_x, rand_y, 1.)
+                        transform: Transform::from_xyz(rand_x, rand_y, 2.)
                             .with_rotation(Quat::from_rotation_z(
                                 rand.gen_range(0.0..std::f32::consts::PI * 2.),
                             )),
                         texture: asset_server.load("sprites/Fish.png"),
                         ..default()
                     },
-                    Collider::ball(FISH_SIZE.x / 2.),
+                    Collider::ball(FISH_SIZE.x ),
                     Sensor::default(),
                     Fish {},
                     Animator::new(get_fish_tween(Vec3::new(
