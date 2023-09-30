@@ -1,6 +1,6 @@
 <div align = "center">
 
-# Space-Kitty
+# Kuro Neko
 
 </div>
 
@@ -34,8 +34,6 @@ Made with [Bevy game engine](https://github.com/bevyengine/bevy). Inspired by [L
 * [kira](https://github.com/tesselode/kira) - the most powerful rust audio library for creating games.
 * [rapier2d](https://github.com/dimforge/rapier) - one and only :).
 * [egui](https://github.com/emilk/egui) - can't debug without it!
-
-### To-do:
 
 #### Design:
 
