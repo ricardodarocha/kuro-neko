@@ -62,7 +62,7 @@ pub fn build_planets_layer(
             parent.spawn(ImageBundle {
                 style: PLANET_BIG,
                 image: UiImage::new(
-                    asset_server.load("sprites/Planet Big.png"),
+                    asset_server.load("sprites/Planet Small.png"),
                 ),
                 background_color: BackgroundColor::from(Color::rgba(
                     1., 1., 1., 1.,
@@ -96,7 +96,19 @@ pub fn build_planets_layer(
                     parent.spawn(ImageBundle {
                         style: PLANET_SMALL,
                         image: UiImage::new(
-                            asset_server.load("sprites/Planet Small.png"),
+                            asset_server.load("sprites/Planet Big.png"),
+                        ),
+                        background_color: BackgroundColor::from(Color::rgba(
+                            1., 1., 1., 1.,
+                        )),
+                        ..default()
+                    });
+                })
+                .with_children(|parent| {
+                    parent.spawn(ImageBundle {
+                        style: ECLIPSE_SHADDOW,
+                        image: UiImage::new(
+                            asset_server.load("sprites/Planet atmosphere.png"),
                         ),
                         background_color: BackgroundColor::from(Color::rgba(
                             1., 1., 1., 1.,

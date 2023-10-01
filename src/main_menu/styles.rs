@@ -12,7 +12,7 @@ pub const PLANETS_NODE: Style = Style {
     ..Style::DEFAULT
 };
 pub const PLANET_BIG: Style = Style {
-    size: Size::new(Val::Px(700.), Val::Px(600.)),
+    size: Size::new(Val::Px(900.), Val::Px(800.)),
     position: UiRect::new(
         Val::Px(-39.2),
         Val::Px(-302.2),
@@ -45,6 +45,21 @@ pub const PLANET_ATMOSPHERE: Style = Style {
     position_type: PositionType::Absolute,
     ..Style::DEFAULT
 };
+pub const ECLIPSE_SHADDOW: Style = Style {
+    size: Size::new(Val::Px(20.), Val::Px(20.)),
+    justify_content: JustifyContent::Center,
+    position: UiRect::new(
+        Val::Percent(66.7),
+        Val::Percent(0.),
+        Val::Percent(27.3),
+        Val::Percent(0.),
+    ),
+    position_type: PositionType::Absolute,
+    ..Style::DEFAULT
+};
+
+
+
 pub const PLANET_SMALL: Style = Style {
     size: Size::new(Val::Px(100.), Val::Px(100.)),
     align_self: AlignSelf::Center,
@@ -86,7 +101,7 @@ pub const NORMAL_BUTTON_STYLE: Style = Style {
     ..Style::DEFAULT
 };
 pub const IMAGE_STYLE: Style = Style {
-    max_size: Size::new(Val::Px(454.), Val::Px(124.)),
+    max_size: Size::new(Val::Px(300.), Val::Px(300.)),
     margin: UiRect::new(Val::Px(8.), Val::Px(8.), Val::Px(8.), Val::Px(8.)),
     ..Style::DEFAULT
 };
@@ -94,7 +109,7 @@ pub const TITLE_STYLE: Style = Style {
     flex_direction: FlexDirection::Row,
     justify_content: JustifyContent::Center,
     align_items: AlignItems::Center,
-    size: Size::new(Val::Px(300.), Val::Px(120.)),
+    size: Size::new(Val::Px(300.), Val::Px(300.)),
     ..Style::DEFAULT
 };
 

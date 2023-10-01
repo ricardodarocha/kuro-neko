@@ -118,7 +118,7 @@ pub fn update_score(
     for event in picked_event.iter() {
         for (name, entity) in entity_query.iter() {
             if entity == event.0 {
-                let loot_count = if name.to_string() == "Kitty" {
+                let loot_count = if name.to_string() == "Neko" {
                     1
                 } else {
                     rand::thread_rng().gen_range(1..10)

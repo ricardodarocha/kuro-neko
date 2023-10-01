@@ -466,7 +466,7 @@ pub fn debug_pressing_o_key(
     if keyboard_input.just_pressed(KeyCode::O) {
         for i in 0..10 {
             highscores.scores.insert(
-                Name::new("Kitty".to_string() + &i.to_string()),
+                Name::new("Neko".to_string() + &i.to_string()),
                 (asset_server.load("sprites/Cat's face blue.png"), i),
             );
         }

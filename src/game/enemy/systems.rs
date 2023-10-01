@@ -339,7 +339,7 @@ pub fn spawn_enemy_on_game_progress(
 ) {
     let event = picked_event
         .iter()
-        .find(|event| event.name.as_str().eq("Kitty"));
+        .find(|event| event.name.as_str().eq("Neko"));
 
     // If we didn't found any Kitty in these events return
     if let None = event {

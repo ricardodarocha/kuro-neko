@@ -109,7 +109,7 @@ pub fn spawn_player(
             Restitution::coefficient(1.),
             Player { health: 3 },
             Avatar(asset_server.load("sprites/Avatars/Frame Kitty.png")),
-            Name::new("Kitty"),
+            Name::new("Neko"),
         ))
         .with_children(|parent| {
             parent
@@ -185,7 +185,7 @@ pub fn spawn_player_without_gpu_particles(
             Restitution::coefficient(1.),
             Player { health: 3 },
             Avatar(asset_server.load("sprites/Avatars/Frame Kitty.png")),
-            Name::new("Kitty"),
+            Name::new("Neko"),
         ))
         .with_children(|parent| {
             parent.spawn((
@@ -722,7 +722,7 @@ pub fn handle_player_collision(
                     {
                         Ok(score) => {
                             score_events.send(ScoreUpdateEvent {
-                            name: Name::from("Kitty"),
+                            name: Name::from("Neko"),
                             event_type:
                                 crate::game::score::ScoreEventType::ScoreDrop(
                                     score,

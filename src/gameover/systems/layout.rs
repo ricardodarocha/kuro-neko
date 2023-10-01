@@ -228,7 +228,7 @@ fn spawn_row(
             });
             // Entity's image
             // Handle Kitty's image case
-            if name.to_string() == "Kitty" {
+            if name.to_string() == "Neko" {
                 image = asset_server.load("sprites/Cat's face blue.png");
                 parent.spawn(ImageBundle {
                     image: UiImage::new(image),
