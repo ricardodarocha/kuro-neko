@@ -4,7 +4,7 @@
 
 </div>
 
-<img width="1920" alt="Space Kitty Presentation" src="https://github.com/ghashy/Space-Kitty/pag1.PNG">
+<img width="1920" alt="Space Kitty Presentation" src="https://github.com/ricardodarocha/kuro-neko/blob/main/pag1.PNG">
 
 ## Description
 
