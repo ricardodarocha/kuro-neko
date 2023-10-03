@@ -4,7 +4,7 @@
 
 </div>
 
-<img width="1920" alt="Space Kitty Presentation" src="https://github.com/ghashy/Space-Kitty/assets/128966780/b06f223c-996c-4d91-8275-8b30d18124a9">
+<img width="1920" alt="Space Kitty Presentation" src="https://github.com/ghashy/Space-Kitty/pag1.PNG">
 
 ## Description
 
